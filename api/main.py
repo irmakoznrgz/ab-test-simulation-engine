@@ -3,8 +3,18 @@ from pydantic import BaseModel, Field
 from typing import Optional
 from src.ingestion import *
 from src.stats_engine import *
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Dynamic Voucher and Revenue Optimizer API")
+
+#CORS Settings
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class UserActionPayload(BaseModel):
     user_id: str = Field(..., description="Unique user ID")
