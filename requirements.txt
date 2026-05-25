@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+psycopg2-binary
+statsmodels
+scipy
+numpy
+pandas
+requests
+Faker
