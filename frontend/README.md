@@ -31,4 +31,4 @@ This is the front-end application for the Dynamic A/B Test Simulation Engine. It
 
 **Note:** Ensure that your FastAPI backend and PostgreSQL database are running simultaneously for the dashboard to fetch and display data.
 
-![Dashboard](img/)
+![Dashboard Screenshot](frontend/img/dashboard.png)
