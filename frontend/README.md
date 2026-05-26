@@ -30,3 +30,5 @@ This is the front-end application for the Dynamic A/B Test Simulation Engine. It
 5. Open your browser and navigate to the URL provided in the terminal (usually http://localhost:5173).
 
 **Note:** Ensure that your FastAPI backend and PostgreSQL database are running simultaneously for the dashboard to fetch and display data.
+
+![Dashboard](img/)
